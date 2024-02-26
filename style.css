@@ -1,0 +1,55 @@
+
+
+main{
+    padding: 0;
+    margin: 0;
+
+}
+
+.section-card{
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.soy-div-conteiner{
+        display: flex;
+       padding: 15px;
+   gap: 15px;
+   border:3px solid #000;
+   background: linear-gradient(0deg, rgba(167,184,215,1) 28%, rgba(91,209,213,1) 93%);
+   
+}
+
+.soy-un-div, .soy-un-div-2{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* border:3px solid transparent; */
+    padding: 10px;  
+}
+
+.soy-un-div-2{
+    border-left:3px solid #000;  
+      border-right:3px solid #000;
+
+}
+
+
+.soy-div-conteiner p, h3{
+    font-size: 25px;
+}
+
+
+
+.soy-div-conteiner img{
+    width: 100px;
+    height: 90px;
+    border:2px solid #000;
+    
+
+}
+
